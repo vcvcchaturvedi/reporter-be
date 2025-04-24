@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "reporter-be",
+  "version": "1.0.0",
+  "description": "Reporter's Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Vinay Chaturvedi",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "8.0.35",
+    "dotenv": "^16.4.7",
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
